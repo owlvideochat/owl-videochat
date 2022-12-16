@@ -1,5 +1,5 @@
-asgiref==3.5.2
-Django==3.2.16
-pytz==2022.6
-sqlparse==0.4.3
-typing_extensions==4.4.0
+agora-token-builder==1.0.0
+asgiref==3.4.1
+Django==4.0.1
+sqlparse==0.4.2
+tzdata==2021.5

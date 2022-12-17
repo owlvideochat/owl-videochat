@@ -1,1 +1,1 @@
-web: gunicorn mychat.wsgi
+web: gunicorn owl.wsgi

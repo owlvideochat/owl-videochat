@@ -1,5 +1,6 @@
 # owl-videochat
-This is a Django project that you can use as the starting point to run on your own.
+
+This is video chat app that you can run locally and use.
 
 Steps to run project locally
 

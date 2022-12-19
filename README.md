@@ -7,7 +7,7 @@ Steps to run project locally
 step 1:
 
 ```
-Clone the repo from https://github.com/owlvideochat/owl-videochat
+git clone https://github.com/owlvideochat/owl-videochat
 ```
 
 step 2:

@@ -1,6 +1,5 @@
 # owl-videochat
 
-This is video chat app that you can run locally and use.
 
 Steps to run project locally
 

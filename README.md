@@ -6,16 +6,19 @@ Steps to run project locally
 
 step 1:
 
-Clone the repo
+```
+Clone the repo from https://github.com/owlvideochat/owl-videochat
+```
 
 step 2:
-
-Create a virtualenv
-
+```
+Create and activate virtualenv
+```
 step 3:
-
+```
 pip install -r requirements.txt
-
+```
 step 4:
-
-run the server
+```
+python manage.py runserver
+```

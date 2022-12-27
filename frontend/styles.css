@@ -1,0 +1,33 @@
+.body{
+    margin: 0px;
+}
+.navbar{
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(222, 222, 222);
+    
+
+}
+.name{
+    padding-left: 3rem;
+    padding-top: 2rem;
+    font-size: larger;
+}
+
+.screenoutter{
+    display: flex;
+    justify-content: center;
+
+}
+.screen{
+    height: 35rem;
+    width: 80rem;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+    animation: mymove 5s infinite;
+    border-radius: 3rem;
+}
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px rgb(0, 0, 0);}
+  }

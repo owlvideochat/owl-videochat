@@ -1,10 +1,18 @@
 .body{
     margin: 0px;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .navbar{
     height: 5rem;
     width: 100%;
-    background-color: rgb(222, 222, 222);
+    margin: 0px;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     
 
 }
@@ -16,12 +24,13 @@
 
 .screenoutter{
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    padding-right: 20px;
 
 }
 .screen{
     height: 35rem;
-    width: 80rem;
+    width: 60rem;
     background-color: black;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
@@ -30,4 +39,22 @@
 }
 @keyframes mymove {
     50% {box-shadow: 10px 20px 30px rgb(0, 0, 0);}
+  }
+
+ 
+  
+  .button{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    justify-content: space-between;
+    cursor: pointer;
+    
+  }
+  .allbuttons{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    padding-top: 50px;
+    justify-content: space-between;
   }
